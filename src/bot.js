@@ -13,7 +13,7 @@ client.on("ready", () => {
 client.on('message', msg => {
     const message = '\n**Commands:**\n!create - creates a random order to do daily roulettes in.\n!help - gives all available commands.\n\nIf you have any ideas for more commands create an issue at *https://github.com/briannakeune/ffxiv-discord-automation/issues*\nThank you!'
     if(msg.content === prefix + 'help') {
-
+        msg.reply(message)
     }
 })
 
